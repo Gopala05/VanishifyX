@@ -1,9 +1,12 @@
-import Nav from "@/components/custom/nav";
+import Nav from "@/components/custom/Nav";
+import Home from "@/components/custom/Home";
 
-export default function Home() {
+const LandingPageView = () => {
   return (
-    <div className="flex h-full">
+    <>
       <Nav />
-    </div>
+      <Home />
+    </>
   );
-}
+};
+export default LandingPageView;
