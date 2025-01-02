@@ -1,6 +1,10 @@
 // Library Imports
 import Image from "next/image";
 import Link from "next/link";
+import {
+  RegisterLink,
+  LoginLink,
+} from "@kinde-oss/kinde-auth-nextjs/components";
 
 const Nav = () => {
   return (
@@ -32,19 +36,17 @@ const Nav = () => {
 
           <div className="flex items-center gap-4">
             <div className="sm:flex sm:gap-4">
-              <a
-                className="block rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700 dark:hover:bg-teal-500"
-                href="#"
-              >
-                Login
-              </a>
+              <LoginLink postLoginRedirectURL="/dashboard">
+                <span className="block rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700 dark:hover:bg-teal-500">
+                  Login
+                </span>
+              </LoginLink>
 
-              <a
-                className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75 sm:block dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
-                href="#"
-              >
-                Register
-              </a>
+              <RegisterLink postLoginRedirectURL="/dashboard">
+                <span className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75 sm:block dark:bg-gray-800 dark:text-white dark:hover:text-white/75">
+                  Register
+                </span>
+              </RegisterLink>
             </div>
 
             <button className="block rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75 md:hidden dark:bg-gray-800 dark:text-white dark:hover:text-white/75">
