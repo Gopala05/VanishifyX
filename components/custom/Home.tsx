@@ -4,7 +4,12 @@ import Link from "next/link";
 const Home = () => {
   return (
     <section className="bg-bgcolor text-white">
-      <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
+      <div className="flex flex-col justify-center gap-y-20 mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
+        <div className="flex items-baseline justify-center">
+          <h1 className="text-white px-3 py-2 border border-white text-center rounded-full">
+            See What's New
+          </h1>
+        </div>
         <div className="mx-auto max-w-4xl text-center">
           <h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-4xl font-extrabold text-transparent md:text-6xl">
             Document and Diagram
