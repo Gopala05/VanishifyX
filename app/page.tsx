@@ -13,9 +13,9 @@ const LandingPageView = () => {
     console.log(user);
   });
 
-  return (  
+  return (
     <>
-      <Nav />
+      <Nav show={true} />
       <Home />
     </>
   );
