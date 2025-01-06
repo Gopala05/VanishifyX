@@ -1,6 +1,7 @@
 // Library Imports
 import type { Metadata } from "next";
 import "@/style/globals.css";
+import { Toaster } from "sonner";
 
 // Custom Imports
 import { ConvexClientProvider } from "./ConvexClientProvider";
@@ -18,7 +19,10 @@ const RootLayout = ({
   return (
     <html lang="en">
       <body>
-        <ConvexClientProvider>{children}</ConvexClientProvider>
+        <ConvexClientProvider>
+          {children}
+          <Toaster />
+        </ConvexClientProvider>
       </body>
     </html>
   );
