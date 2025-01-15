@@ -28,7 +28,9 @@ const Nav: React.FC<NavProps> = ({ show, className }) => {
             height={60}
             className="rounded-full"
           />
-          <span className={cn("font-bold text-3xl", className)}>VanishifyX</span>
+          <span className={cn("font-bold text-3xl tracking-wider", className)}>
+            VanishifyX
+          </span>
         </Link>
 
         {show && (
