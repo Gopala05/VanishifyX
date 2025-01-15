@@ -16,6 +16,17 @@ export type TeamType = {
   teamName: string;
 };
 
+export type FileType = {
+  archive: boolean;
+  createdBy: string;
+  document: string;
+  fileName: string;
+  teamId: string;
+  whiteboard: string;
+  _id: string;
+  _creationTime: number;
+};
+
 export type TopMenuType = {
   name: string;
   path: string;
