@@ -43,6 +43,7 @@ export type TopSideBarType = {
     family_name: string | null;
     picture: string | null;
   } | null;
+  filesUsed: number;
   setActiveTeamInfo: (teamInfo: TeamType) => void;
 };
 
