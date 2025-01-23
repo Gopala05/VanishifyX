@@ -16,7 +16,7 @@ import { Badge } from "@/components/ui/badge";
 import { api } from "@/convex/_generated/api";
 import { UserType } from "@/lib/types";
 
-const CreateTeam = () => {
+const CreateTeamView = () => {
   const createTeam = useMutation(api.team.createTeam);
   const { user }: UserType = useKindeBrowserClient();
   const router = useRouter();
@@ -71,4 +71,4 @@ const CreateTeam = () => {
   );
 };
 
-export default CreateTeam;
+export default CreateTeamView;
