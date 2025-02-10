@@ -87,10 +87,6 @@ We welcome contributions! Here's how you can help improve VanishifyX:
 
 Please ensure that your code adheres to the project’s coding standards and passes all tests before submitting a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgements
 
 - [Eraser.io](https://eraser.io) for the inspiration behind the project.
