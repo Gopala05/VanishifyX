@@ -63,7 +63,6 @@ To run this project locally, make sure you have the following installed:
     This will start the app at `http://localhost:3000`.
 
 4. Run the Convex DB:
-    - Start the Convex server with:
 
       ```bash
       npx convex dev
