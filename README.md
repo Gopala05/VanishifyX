@@ -19,8 +19,8 @@ You can try out the live demo of VanishifyX at:
 ## Technologies Used
 
 - **Frontend**: 
-  - HTML5, CSS3, JavaScript
-  - React (for building the user interface)
+  - NextJS (for building the user interface)
+  - TailwindCSS (for styling)
   - Redux (for state management)
 - **Backend**: 
   - Node.js (for server-side logic)
@@ -28,7 +28,7 @@ You can try out the live demo of VanishifyX at:
 - **Database**: 
   - MongoDB (for storing user-related data, if applicable)
 - **Authentication**:
-  - JWT (for secure user login and registration)
+  - Kind (for secure user login and registration)
 
 ## Installation
 
