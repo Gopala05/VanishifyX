@@ -21,12 +21,12 @@ You can try out the live demo of VanishifyX at:
 - **Frontend**: 
   - NextJS (for building the user interface)
   - TailwindCSS (for styling)
-  - Redux (for state management)
+  - Context (for state management)
 - **Backend**: 
   - Node.js (for server-side logic)
   - Express.js (for API handling)
 - **Database**: 
-  - MongoDB (for storing user-related data, if applicable)
+  - ConveexDB (for storing relavant data)
 - **Authentication**:
   - Kind (for secure user login and registration)
 
