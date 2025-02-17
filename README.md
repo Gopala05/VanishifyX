@@ -18,13 +18,11 @@ You can try out the live demo of VanishifyX at:
 
 ## Technologies Used
 
-- **Frontend**: 
+- **Application Development**: 
   - NextJS (for building the user interface)
   - TailwindCSS (for styling)
   - Context (for state management)
-- **Backend**: 
   - Node.js (for server-side logic)
-  - Express.js (for API handling)
 - **Database**: 
   - ConveexDB (for storing relavant data)
 - **Authentication**:
